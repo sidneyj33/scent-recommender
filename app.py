@@ -203,22 +203,4 @@ with col2:
 
 # Footer
 st.markdown("---")
-st.markdown("**Setup Instructions:**")
-st.markdown("""
-1. Create a Supabase project at [supabase.com](https://supabase.com)
-2. Create table `fragrance_recommendations` with columns:
-   - `id` (int8, primary key, auto-increment)
-   - `mood` (text)
-   - `product_type` (text)
-   - `product_name` (text)
-   - `description` (text)
-   - `blend_formula` (text)
-   - `best_time` (text)
-   - `created_at` (timestamptz)
-3. Add to `.streamlit/secrets.toml`:
-   ```
-   SUPABASE_URL = "your-project-url"
-   SUPABASE_KEY = "your-publishable-key"
-   GEMINI_API_KEY = "your-gemini-api-key"
-   ```
-""")
+st.markdown("*Powered by AI & Fragrance Science* 🌸")
