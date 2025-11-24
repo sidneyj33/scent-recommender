@@ -199,7 +199,7 @@ with col2:
         else:
             st.info("No recommendations yet. Create your first blend!")
     except Exception as e:
-        st.warning("Connect Supabase to see history")
+        st.info("No recommendations yet. Create your first blend!")
 
 # Footer
 st.markdown("---")
